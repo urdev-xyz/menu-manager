@@ -1,2 +1,2 @@
-# menu-manager
-the urdev solution to managing restaurant menus
+![ ur menu manager ](https://github.com/urdev-xyz/menu-manager/blob/master/ur-menu-manager.png)
+
