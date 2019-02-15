@@ -1,25 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Navbar from './components/Navbar/Navbar';
-import Toolbar from './components/Navbar/Navbar';
-import Content from './components/Navbar/Navbar';
-import Footer from './components/Navbar/Navbar';
+import Login from './components/Pages/Login/Login';
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render((
     <BrowserRouter>
         <Switch>
-            <Navbar/>
-            <Toolbar/>
-            <Content>
-                <Route exact path='/' component={App}/>
-                <Route path='/roster' component={App}/>
-                <Route path='/schedule' component={App}/>
-            </Content>
-            <Footer/>
+                <Redirect exact from='/' to="/login"/>
+                <Route path='/(login|home)/' component={Login}/>
+                <Route path='/app/:page' component={App}/>
         </Switch>
     </BrowserRouter>
 ), document.getElementById('root'));
