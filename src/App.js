@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Toolbar from './components/Toolbar/Toolbar';
 import Content from './components/Content/Content';
-import Footer from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 import Dashboard from './components/Pages/Dashboard/Dashboard';
 import Analytics from './components/Pages/Analytics/Analytics';
