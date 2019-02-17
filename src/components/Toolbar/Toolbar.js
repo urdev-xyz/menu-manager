@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import './Toolbar.css';
 
-class Navbar extends Component {
+class Toolbar extends Component {
   render() {
     return (
       <div className="Toolbar">
-        HELLOWORLD
+        TOOLBAR
       </div>
     );
   }
 }
 
-export default Navbar;
+export default Toolbar;
