@@ -8,18 +8,25 @@
     z-index: 1000;
 
     width: 100%;
-    height: 64px;
-    border-bottom: 1px solid var(--black-primary);
+    height: 58px;
+    background: var(--blue-primary);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
     font-size: 20px;
 }
+.Navbar *{
+    color: var(--white-primary);
+    fill: var(--white-primary);
+}
 .Navbar h2 {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
 }
 
 .Navbar-left {
     min-width: 50%;
+    padding: 0px 20px;
 }
 .Navbar-right {
-
+    max-width: 50%;
+    padding: 0px 20px;
 }

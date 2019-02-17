@@ -30,8 +30,8 @@ body,
 }
 
 a {
-  color: var(--blue-light);
+  color: var(--blue-dark);
 }
 a:hover {
-  color: var(--blue-dark);
+  color: var(--blue-light);
 }

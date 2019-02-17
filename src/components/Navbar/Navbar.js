@@ -9,7 +9,7 @@ class Navbar extends Component {
           <h2>Menu Manager</h2>
         </div>
         <div className="Navbar-right">
-        
+          
         </div>
       </div>
     );

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Analytics extends Component {
   render() {
     return (
-      <div className="Navbar">
+      <div className="Analytics">
         analytics page
       </div>
     );
