@@ -11,12 +11,12 @@ class Toolbar extends Component {
           <a href='/app/menueditor'><li>Menu Editor</li></a>
         </ul>
         <ul>
-          <a href='/app/menueditor'><li>Messages</li></a>
-          <a href='/app/menueditor'><li>Notifications</li></a>
+          <a href='/app/messages'><li>Messages</li></a>
+          <a href='/app/notifications'><li>Notifications</li></a>
         </ul>
         <ul>
-          <a href='/app/dashboard'><li>Settings</li></a>
-          <a href='/app/analytics'><li>Contact Support</li></a>
+          <a href='/app/settings'><li>Settings</li></a>
+          <a href='/app/support'><li>Contact Support</li></a>
         </ul>
       </div>
     );

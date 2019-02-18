@@ -8,6 +8,11 @@ import Footer from './components/Footer/Footer';
 
 import Dashboard from './components/Pages/Dashboard/Dashboard';
 import Analytics from './components/Pages/Analytics/Analytics';
+import MenuEditor from './components/Pages/Dashboard/Dashboard';
+import Messages from './components/Pages/Analytics/Analytics';
+import Notifications from './components/Pages/Dashboard/Dashboard';
+import Settings from './components/Pages/Analytics/Analytics';
+import Support from './components/Pages/Dashboard/Dashboard';
 
 
 
@@ -27,6 +32,11 @@ class App extends Component {
 
     if (this.state.page === 'dashboard') { page = <Dashboard/> }
     else if (this.state.page === 'analytics') { page = <Analytics/> }
+    else if (this.state.page === 'analytics') { page = <MenuEditor/> }
+    else if (this.state.page === 'analytics') { page = <Messages/> }
+    else if (this.state.page === 'analytics') { page = <Notifications/> }
+    else if (this.state.page === 'analytics') { page = <Settings/> }
+    else if (this.state.page === 'analytics') { page = <Support/> }
 
     return (
       <div className="App">
