@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import MenuItem from '../../MenuItem/MenuItem';
 
 class Dashboard extends Component {
   render() {
     return (
       <div className="Dashboard">
-        dashboard page
+        <section>
+          <h2>Top Preformers</h2>
+          <MenuItem/>
+        </section>
       </div>
     );
   }
