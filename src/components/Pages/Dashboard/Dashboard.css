@@ -1,0 +1,13 @@
+.Dashboard {
+    width: 100%;
+}
+.Dashboard a {
+    text-align: center;
+}
+.Dashboard section {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+}

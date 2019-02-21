@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MenuItem from '../../MenuItem/MenuItem';
+import './Dashboard.css';
 
 class Dashboard extends Component {
   render() {
@@ -7,7 +8,11 @@ class Dashboard extends Component {
       <div className="Dashboard">
         <section>
           <h2>Top Preformers</h2>
-          <MenuItem/>
+          <div className='horizontal-row'>
+            <MenuItem/>
+            <MenuItem/>
+            <MenuItem/>
+          </div>
         </section>
       </div>
     );
